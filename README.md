@@ -1,59 +1,40 @@
 ﻿# ASCEND
 
-Your life. Your quest. Your evolution.
+## Your life. Your quest. Your evolution.
 
-ASCEND is a full-stack life RPG that transforms real-world tasks into character progression.
+**ASCEND** is a full-stack Life RPG that transforms real-world goals and everyday actions into meaningful character progression.
 
-## Architecture
+Instead of treating productivity as a checklist, ASCEND turns effort into a persistent game system where users can create quests, complete real-world objectives, earn XP and Gold, develop attributes, build streak momentum, and level up their character.
 
-- Frontend: React + TypeScript + Vite + Tailwind CSS
-- Backend: Next.js + TypeScript
-- Database: MongoDB + Mongoose
-- Authentication: JWT session
-- Deployment: Vercel
+> **Your real life becomes the game.**
 
-## Features
+---
 
-- Secure signup and login
-- Persistent user characters
-- Personal quests
-- Quest creation, editing and deletion
-- Start and complete quests
-- XP and gold rewards
-- Character attributes
-- Streak progression
-- MongoDB persistence
-- Responsive gaming interface
+# 🌌 1. Vision
 
-## Project Structure
+Most productivity applications answer:
 
-ASCEND-FULLSTACK/
-├── backend/
-└── frontend/
+> **What do I need to do?**
 
-## Local Setup
+ASCEND asks:
 
-Frontend: cd frontend; npm install; npm run dev
+> **Who am I becoming by doing it?**
 
-Backend: cd backend; npm install; npm run dev
+The core idea is simple:
 
-## Environment
-
-Create .env.local files from the provided .env.example files. Never commit real credentials or secrets.
-
-## API
-
-POST /api/auth/signup
-POST /api/auth/login
-GET /api/health
-GET /api/character
-GET /api/quests
-POST /api/quests
-PATCH /api/quests/:id
-DELETE /api/quests/:id
-POST /api/quests/:id/start
-POST /api/quests/:id/complete
-
-## Hackathon
-
-Built for Tech Zephyr 4.0 - Life RPG.
+```text
+REAL-WORLD ACTION
+        ↓
+      QUEST
+        ↓
+     ACTION
+        ↓
+   COMPLETION
+        ↓
+  XP + GOLD + ATTRIBUTE
+        ↓
+ CHARACTER PROGRESSION
+        ↓
+ STREAK + MOMENTUM
+        ↓
+   NEXT CHALLENGE
