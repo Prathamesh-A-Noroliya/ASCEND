@@ -176,7 +176,7 @@ export async function updateQuest(id: string, data: any) {
     return startQuest(id);
   }
 
-  const response = await request<any>(/quests/, {
+  const response = await request<any>(`/quests/${id}`, {
     method: 'PATCH',
     body: JSON.stringify(data),
   });
@@ -185,7 +185,7 @@ export async function updateQuest(id: string, data: any) {
 }
 
 export async function deleteQuest(id: string) {
-  await request<any>(/quests/, {
+  await request<any>(`/quests/${id}`, {
     method: 'DELETE',
   });
 
